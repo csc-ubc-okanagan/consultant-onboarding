@@ -39,14 +39,14 @@
     "href": "index.html",
     "title": "UBCO CSC Graduate Data Services",
     "section": "",
-    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations."
+    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations.\nIn addition to these core elements, referrals to expertise elsewhere within the CSC are encouraged."
   },
   {
     "objectID": "index.html#service-offerings",
     "href": "index.html#service-offerings",
     "title": "UBCO CSC Graduate Data Services",
     "section": "",
-    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations."
+    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations.\nIn addition to these core elements, referrals to expertise elsewhere within the CSC are encouraged."
   },
   {
     "objectID": "index.html#user-facing-experience",
@@ -124,5 +124,33 @@
     "title": "Blog Posts",
     "section": "Creating Posts",
     "text": "Creating Posts\nWe use Blogdown to write and release content hosted on GitHub pages. The CSC Data Blog repository, along with instructions for drafting, building, and pushing content can be found at https://github.com/csc-ubc-okanagan/csc-data-blog.\nYou are encouraged to actively contribute to the site’s documentation if you identify gaps, to address updates, errors, etc.\nThe blog can be accessed at https://csc-ubc-okanagan.github.io/csc-data-blog/."
+  },
+  {
+    "objectID": "referrals.html",
+    "href": "referrals.html",
+    "title": "Referrals",
+    "section": "",
+    "text": "The data consultant service is part of a much larger research support network at UBCO, centralized through the CSC.\nAs appropriate, when students have questions or require additional support, they should be referred to the relevant expertise, which may include questions or issues related to ethics, software support, compute infrastructure, thesis formatting, copyright, publishing agreements, writing support, finding data, conducting literature reviews, etc.\nYou should familiarize yourself with the scope of supports available, as listed below, and redirect as necessary and appropriate. If in doubt, refer to the CSC Coordinator or your supervisor."
+  },
+  {
+    "objectID": "referrals.html#service-model",
+    "href": "referrals.html#service-model",
+    "title": "Referrals",
+    "section": "",
+    "text": "The data consultant service is part of a much larger research support network at UBCO, centralized through the CSC.\nAs appropriate, when students have questions or require additional support, they should be referred to the relevant expertise, which may include questions or issues related to ethics, software support, compute infrastructure, thesis formatting, copyright, publishing agreements, writing support, finding data, conducting literature reviews, etc.\nYou should familiarize yourself with the scope of supports available, as listed below, and redirect as necessary and appropriate. If in doubt, refer to the CSC Coordinator or your supervisor."
+  },
+  {
+    "objectID": "referrals.html#referrals-within-the-csc",
+    "href": "referrals.html#referrals-within-the-csc",
+    "title": "Referrals",
+    "section": "Referrals within the CSC",
+    "text": "Referrals within the CSC\nThe CSC is designed to bring together all research supports at UBC Okanagan under a common umbrella to facilitate, for researchers, navigating the supports and expertise available to them. Below, we try to provide context for when referrals should be made, both by office or service as well as by where in the research life cycle a user is at.\nReferrals are encouraged and should be made by way of a cc’d email to csc.ok@ubc.ca (i.e. email the CSC with the user cc’d requesting a referral with a brief summary of the context)."
+  },
+  {
+    "objectID": "referrals.html#csc-partners-services",
+    "href": "referrals.html#csc-partners-services",
+    "title": "Referrals",
+    "section": "CSC Partners & Services",
+    "text": "CSC Partners & Services\n\nORS\nThe Office of Research Services at UBC Okanagan supports all aspects of pre-study implementation, including grant funding and ethics.\nUsers looking for support with funding, ethics, and related compliance, should be referred to ORS via their supervisor or PI, as appropriate.\nLearn more about UBCO’s ORS scope of services here, and meat their team here.\n\n\nResearch Computing\nResearch Computing provides direct support to UBC Okanagan researchers, including ongoing research IT support, hardware & software setup, quotes, consultations, installation, troubleshooting and configuration.\nUsers looking for support with institutionally provisioned hardware or software, or asking questions about storage, server space, high performance computing and questions of this nature, should be referred to Research Computing.\nLearn more about their services here.\n\n\nLibrary\nThe Library supports multiple research related activities. It is the primary point of contact for:\n\nliterature and data discovery\nsecondary research (literature reviews, meta-analyses)\ncopyright\nresearch data management\nscholarly communication (metrics, publisher agreements, etc)\n\nThe library runs both a functional and subject based model: each faculty or department has a subject librarian; primary functional roles (copyright, data, collections, etc.) are assigned to individual librarians.\nUsers looking to acquire literature or data, get methodolgical support for secondary research, resolve a copyright or licencing concern, organize or deposit research data, or navigate issues related to scholarly communication, should be redirected to their subject or relevant functional librarian.\nFind a list of librarians by subject here.\n\n\nWriting Consultations\nThe CSC offers graduate and faculty writing and presentation support; this is available for any scholarly output including conferences, publications etc.\nUsers looking for support in preparing presentations, drafting articles, etc. should be referred to these writing supports.\nLearn more about the CSC’s writing supports here.\n\n\nData Consultations\nThe CSC offers graduate and faculty data and statistics support. This includes connecting data and statistics to study design, data wrangling (cleaning, formatting, etc), and selection and interpretation of statistical tests.\nLearn more about the CSC’s data supports here.\n\n\nCollege of Graduate Studies\nGraduate users who have questions or concerns relating to University operations or conduct (awards, conflict, graudation, etc) should be referred to CoGS.\nLearn more about CoGS here.\n\n\nUniversity Industry Liaison Office\nUsers engaged in research with any partner external to UBC that may involve in exchange of data, information, etc should be referred to the ULIO via their supervisor or PI, as appropriate.\nLearn more about UILO services at UBC Okanagan here."
   }
 ]

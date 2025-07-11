@@ -1,0 +1,78 @@
+---
+title: "Referrals"
+format: html
+---
+
+## Service Model
+
+The data consultant service is part of a much larger research support network at UBCO, centralized through the CSC.
+
+As appropriate, when students have questions or require additional support, they should be referred to the relevant expertise, which may include questions or issues related to ethics, software support, compute infrastructure, thesis formatting, copyright, publishing agreements, writing support, finding data, conducting literature reviews, etc.
+
+You should familiarize yourself with the scope of supports available, as listed below, and redirect as necessary and appropriate. If in doubt, refer to the CSC Coordinator or your supervisor.
+
+## Referrals within the CSC
+
+The CSC is designed to bring together all research supports at UBC Okanagan under a common umbrella to facilitate, for researchers, navigating the supports and expertise available to them. Below, we try to provide context for when referrals should be made, both by office or service as well as by where in the research life cycle a user is at.
+
+Referrals are encouraged and should be made by way of a cc'd email to csc.ok@ubc.ca (i.e. email the CSC with the user cc'd requesting a referral with a brief summary of the context).
+
+## CSC Partners & Services
+
+### ORS
+
+The Office of Research Services at UBC Okanagan supports all aspects of pre-study implementation, including grant funding and ethics.
+
+Users looking for support with funding, ethics, and related compliance, should be referred to ORS via their supervisor or PI, as appropriate.
+
+Learn more about UBCO's ORS scope of services [here](https://ors.ok.ubc.ca/about-us/services/), and meat their team [here](https://ors.ok.ubc.ca/about-us/our-team/).
+
+### Research Computing
+
+Research Computing provides direct support to UBC Okanagan researchers, including ongoing research IT support, hardware & software setup, quotes, consultations, installation, troubleshooting and configuration.
+
+Users looking for support with institutionally provisioned hardware or software, or asking questions about storage, server space, high performance computing and questions of this nature, should be referred to Research Computing.
+
+Learn more about their services [here](https://rc.ubc.ca/).
+
+### Library
+
+The Library supports multiple research related activities. It is the primary point of contact for:
+
+* literature and data discovery
+* secondary research (literature reviews, meta-analyses)
+* copyright
+* research data management
+* scholarly communication (metrics, publisher agreements, etc)
+
+The library runs both a functional and subject based model: each faculty or department has a subject librarian; primary functional roles (copyright, data, collections, etc.) are assigned to individual librarians.
+
+Users looking to acquire literature or data, get methodolgical support for secondary research, resolve a copyright or licencing concern, organize or deposit research data, or navigate issues related to scholarly communication, should be redirected to their subject or relevant functional librarian.
+
+Find a list of librarians by subject [here](https://library.ok.ubc.ca/contact/subject-librarians/).
+
+### Writing Consultations
+
+The CSC offers graduate and faculty writing and presentation support; this is available for any scholarly output including conferences, publications etc.
+
+Users looking for support in preparing presentations, drafting articles, etc. should be referred to these writing supports.
+
+Learn more about the CSC's writing supports [here](https://csc.ok.ubc.ca/consultations/writing-and-academic-communication-consultation/).
+
+### Data Consultations
+
+The CSC offers graduate and faculty data and statistics support. This includes connecting data and statistics to study design, data wrangling (cleaning, formatting, etc), and selection and interpretation of statistical tests.
+
+Learn more about the CSC's data supports [here](https://csc.ok.ubc.ca/consultations/research-data-consultation/).
+
+### College of Graduate Studies
+
+Graduate users who have questions or concerns relating to University operations or conduct (awards, conflict, graudation, etc) should be referred to CoGS.
+
+Learn more about CoGS [here](https://gradstudies.ok.ubc.ca/).
+
+### University Industry Liaison Office
+
+Users engaged in research with any partner external to UBC that may involve in exchange of data, information, etc should be referred to the ULIO via their supervisor or PI, as appropriate.
+
+Learn more about UILO services at UBC Okanagan [here](https://csc.ok.ubc.ca/catalogue/university-industry-liaison-office-uilo/).

@@ -13,6 +13,8 @@ The CSC's graduate data service is designed to support graduate and undergraduat
 
 These three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations.
 
+In addition to these core elements, referrals to expertise elsewhere within the CSC are encouraged.
+
 ## User Facing Experience
 
 The user facing introduction to these three services can be found at [https://csc-ubc-okanagan.github.io/](https://csc-ubc-okanagan.github.io/).
