@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "UBCO CSC Data Consultation Service"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: consultations.qmd
+        
+        text: "Consultations"
+      - href: workshops.qmd
+        text: "Workshops"
+      - href: blog-posts.qmd
+        text: "Blog Posts"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

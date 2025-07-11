@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "These are publicly described, with access to sign up options, at https://csc.ok.ubc.ca/workshops/\n\n\nAll workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.\nIndividual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 minutes for follow up if needed.\nEach workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.\nWorkshop content is meant to be iterative and updated; you are encouraged to make edits and suggestions on both content and delivery approach."
+  },
+  {
+    "objectID": "workshops.html#service-model",
+    "href": "workshops.html#service-model",
+    "title": "Workshops",
+    "section": "",
+    "text": "These are publicly described, with access to sign up options, at https://csc.ok.ubc.ca/workshops/\n\n\nAll workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.\nIndividual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 minutes for follow up if needed.\nEach workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.\nWorkshop content is meant to be iterative and updated; you are encouraged to make edits and suggestions on both content and delivery approach."
+  },
+  {
+    "objectID": "workshops.html#workshop-space",
+    "href": "workshops.html#workshop-space",
+    "title": "Workshops",
+    "section": "Workshop Space",
+    "text": "Workshop Space\nWorkshops are hosted out of LIB 111. The CSC Coordinator will provide an introduction to the room.\nLIB 111 supports hybrid delivery."
+  },
+  {
+    "objectID": "workshops.html#workshop-content",
+    "href": "workshops.html#workshop-content",
+    "title": "Workshops",
+    "section": "Workshop Content",
+    "text": "Workshop Content\nAll workshops are written in notebook format (generally RMarkdown), centralized in GitHub, and published through GitHub pages.\nIf you need to familiarize yourself with RMarkdown, you can check out the Get Started content, and refer to the R Markdown: The Definitive Guide for more thorough documentation.\nTo build, update, etc. workshop content, you will need to request access to the CSC’s organization on GitHub https://github.com/csc-ubc-okanagan."
+  },
+  {
+    "objectID": "workshops.html#workshop-delivery",
+    "href": "workshops.html#workshop-delivery",
+    "title": "Workshops",
+    "section": "Workshop Delivery",
+    "text": "Workshop Delivery\nAs most, if not all, workshops developed require some live coding, a common approach used by consultants is to do a split screen presentation, with the GitHub pages content on one side and an IDE, or similar working space, on the other."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "UBCO CSC Graduate Data Services",
+    "section": "",
+    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations."
+  },
+  {
+    "objectID": "index.html#service-offerings",
+    "href": "index.html#service-offerings",
+    "title": "UBCO CSC Graduate Data Services",
+    "section": "",
+    "text": "The CSC’s graduate data service is designed to support graduate and undergraduate research activities and is comprised of three elements:\n\nworkshops\nbookable, one-on-one consultations\na blog\n\nThese three elements are intended to compliment each other. Workshops provide basic skill development in tools (R and / or Python) and core concepts (conceptual understandings of core statistical concepts); these skillsets enable students to come to a consultation that is designed to help them problem solve an issue in preparing, understanding, evaluating, and interpreting their data, their code, and their analyses; the blog post, as much as possible, offers a resource for students to return to in between consultations."
+  },
+  {
+    "objectID": "index.html#user-facing-experience",
+    "href": "index.html#user-facing-experience",
+    "title": "UBCO CSC Graduate Data Services",
+    "section": "User Facing Experience",
+    "text": "User Facing Experience\nThe user facing introduction to these three services can be found at https://csc-ubc-okanagan.github.io/."
+  },
+  {
+    "objectID": "consultations.html",
+    "href": "consultations.html",
+    "title": "Consultations",
+    "section": "",
+    "text": "This is outlined more concisely for students at https://csc.ok.ubc.ca/consultations/research-data-consultation/. This is also where students can access the booking form.\n\n\nThe data consultation service is premised on enhancing the graduate and undergraduate research learning experience at UBCO, providing students with an opporutnity to build new skill sets that are transferable to future problems. As such, the intent of the service is not to solve the problem for the student, but to navigate them through the problem solving process, helping them to identify a solution that they understand, can implement, and is appropriate for their discipline, their data, and their research question.\nThe service is delivered with the underlying philosophy of engaging students in transparent and reproducible methods, hence the focus on open source and scripted tools for analysis. However, this should be extended to include principles such as maintianing a read only version of the raw data, not overwriting data, and maintaining documentation in the form of readmes and data dictionaries. These, and other good research practices related to data management should be encouraged during consultations.\nHowever, this can be challenging for several reasons. Students may:\n\nhave limited skillsets in the use of R or Python\ncome with immediate deadlines they need to meet\nhave an expectation that someone else will do the work for them\nbe less interested in understanding the problem than simply having a solution\nlack PI or other faculty support in adhering to best practices in data managmenet and statistical methods\nand more…\n\nThese are factors that need to be mediated and benefit from seeking clarification from the student. Ultimately, it is not up to a consultant to tell a student how their work should be done, nor is it their responsibility to navigate the relationship between a student and their supervisor or other project lead. However, it is critical to be clear on the scope of services available. If at any stage there is concern about conflict in managing these challenges, the consultant should bring the issue directly to their supervisor to support a resolution.\n\n\n\nObjectives of the Service\n\nProvide guidance on the writing of code to clean, organize, and otherwise prepare data for analysis.\nProvide guidance on interpreting errors and identifying solutions to overcome these.\nProvide guidance on the selection, application, and interpretation of statistical models used in analysis.\n\nOutcomes of the Service\n\nUsers will be able to write clearer, more reliable code\nUsers will be able to interpret the error messages they receive and resolve them.\nUsers will gain insights into the appropriate selection, application, and interpretation of statistical methods and models\n\nExample Activities Supporting these Outcomes and Objectives\n\nAssist in drafting code to address an error\nProvide sample code to move a dataset through the data analysis pipeline (cleaning, organizing, imputing, etc) (this may be substantive)\nDescribe the applicability and interpretation of a statistical model\nAdvise on the selection of a statistical model, ideally before data collection\nDraft code to demonstrate the implementation a specific model (this may be substantive)\nAs possible, draft all code on a random sample of the supplied data\n\n\n\n\nOut of Scope\n\nWriting the full analysis pipeline\nClass assignment support"
+  },
+  {
+    "objectID": "consultations.html#service-model",
+    "href": "consultations.html#service-model",
+    "title": "Consultations",
+    "section": "",
+    "text": "This is outlined more concisely for students at https://csc.ok.ubc.ca/consultations/research-data-consultation/. This is also where students can access the booking form.\n\n\nThe data consultation service is premised on enhancing the graduate and undergraduate research learning experience at UBCO, providing students with an opporutnity to build new skill sets that are transferable to future problems. As such, the intent of the service is not to solve the problem for the student, but to navigate them through the problem solving process, helping them to identify a solution that they understand, can implement, and is appropriate for their discipline, their data, and their research question.\nThe service is delivered with the underlying philosophy of engaging students in transparent and reproducible methods, hence the focus on open source and scripted tools for analysis. However, this should be extended to include principles such as maintianing a read only version of the raw data, not overwriting data, and maintaining documentation in the form of readmes and data dictionaries. These, and other good research practices related to data management should be encouraged during consultations.\nHowever, this can be challenging for several reasons. Students may:\n\nhave limited skillsets in the use of R or Python\ncome with immediate deadlines they need to meet\nhave an expectation that someone else will do the work for them\nbe less interested in understanding the problem than simply having a solution\nlack PI or other faculty support in adhering to best practices in data managmenet and statistical methods\nand more…\n\nThese are factors that need to be mediated and benefit from seeking clarification from the student. Ultimately, it is not up to a consultant to tell a student how their work should be done, nor is it their responsibility to navigate the relationship between a student and their supervisor or other project lead. However, it is critical to be clear on the scope of services available. If at any stage there is concern about conflict in managing these challenges, the consultant should bring the issue directly to their supervisor to support a resolution.\n\n\n\nObjectives of the Service\n\nProvide guidance on the writing of code to clean, organize, and otherwise prepare data for analysis.\nProvide guidance on interpreting errors and identifying solutions to overcome these.\nProvide guidance on the selection, application, and interpretation of statistical models used in analysis.\n\nOutcomes of the Service\n\nUsers will be able to write clearer, more reliable code\nUsers will be able to interpret the error messages they receive and resolve them.\nUsers will gain insights into the appropriate selection, application, and interpretation of statistical methods and models\n\nExample Activities Supporting these Outcomes and Objectives\n\nAssist in drafting code to address an error\nProvide sample code to move a dataset through the data analysis pipeline (cleaning, organizing, imputing, etc) (this may be substantive)\nDescribe the applicability and interpretation of a statistical model\nAdvise on the selection of a statistical model, ideally before data collection\nDraft code to demonstrate the implementation a specific model (this may be substantive)\nAs possible, draft all code on a random sample of the supplied data\n\n\n\n\nOut of Scope\n\nWriting the full analysis pipeline\nClass assignment support"
+  },
+  {
+    "objectID": "consultations.html#what-is-communicated-to-booking-students",
+    "href": "consultations.html#what-is-communicated-to-booking-students",
+    "title": "Consultations",
+    "section": "What is Communicated to Booking Students",
+    "text": "What is Communicated to Booking Students\nWhen booking a consultation, students are asked to provide certain key pieces of information to assist you in helping them and to sign off on a number of things that relate to academic and scholarly integrity.\nThis booking form is managed in LibCal, and once your account is set up, can be accessed by navigating to Appointments &gt; Booking Forms. You should familiarize yourself with this form. If you find that the form is not sufficiently capturing what is needed to facilitate your consultations, you are encouraged to suggest updates.\nStudents are also provided with two additional links, one for What to Expect During Your Research Data Consultation, and for What Should I Bring to a Consultation?. You should familiarize yourself with these two documents. They can also be referenced to help set expectations for a consultation. As above, you are encouraged to suggest edits and updates."
+  },
+  {
+    "objectID": "consultations.html#consultation-space",
+    "href": "consultations.html#consultation-space",
+    "title": "Consultations",
+    "section": "Consultation Space",
+    "text": "Consultation Space\nConsultations may be provided in person or over Zoom. If you do not yet have a Zoom account through UBC, the CSC Coordinator or your supervisor can help set this up.\nFor in person consultations, we have both LIB 223 and LIB 225 available. You should have Salto access to these two rooms as well as access to the calendars. If you have neither of these, the CSC Coordinator or your supervisor can help set this up."
+  },
+  {
+    "objectID": "consultations.html#consultations-academic-scholarly-integrity",
+    "href": "consultations.html#consultations-academic-scholarly-integrity",
+    "title": "Consultations",
+    "section": "Consultations & Academic / Scholarly Integrity",
+    "text": "Consultations & Academic / Scholarly Integrity\nIt is important to be cognizant of when help begins to infringe on academic and scholarly integrity. This is all the more difficult as different supervisors, collaborators, and disciplines have differing expectations on the scope of support that is legitimate. In some cases, it may be appropriate to write code for an analysis, so long as attribution is provided. In other cases, it may be unacceptable for the student to use code drafted by someone else. The former may be the case if the purpose of the required understanding is the conceptual approach and output; the latter if the required understanding includes a level of mastery of the language.\nIt is importnat to communicate during a consultation that the student should engage with their collaborators and supervisor on the level of support that they are getting; an effective way of doing this is to ask them to solicit feedback on a proposed solution or path forward followed by booking another consultation when things are agreed upon by the research team (possibly just the student and their supervisor).\nBecause writing and trouble shooting code can be a very hands on activity, we have the following guide to help limit the level of ‘authoring’ the data consultant engages in and how much of the original data any authoring happens on:\n\n\n\nActivity\nLocation\n\n\n\n\ntrouble shoot code\non their machine, full data set\n\n\nwrite code\non their machine, using a sample\n\n\ntroubleshoot a model\non their machine, full data set\n\n\nwrite / customize a model\non their machine, using a sample\n\n\ninterpret findings\non their machine, full data set\n\n\n\n\nHandling Substantive Contributions\nIn spite of being aware and taking precautions, you may well end up in a situation feeling like you’re making ‘substantive’ contributions to the student’s project. In such cases you should always make your supervisor aware of the situation.\nExamples of how these situations might be navigated include:\n\nWhen ‘substantive’ contributions are being made to overcome a lack of understanding on the user’s part (this is in contrast to a ‘substantive’ contribution whose primary purpose is demonstration). In these cases, the student should be referred to their supervisor for guidance and may be referred to other self-guided resources or workshops.\nWhen ‘substantive’ makes you think your contributions warrant acknowledgement. In these cases, the student should be made aware of this fact.\nWhen ‘substantive’ makes you think your contributions warrant co-authorship. You should be thinking about this before we get to this stage. If acknowledgment is veering toward co-authorship, this should be clarified with the student and the conversation should include other co-authors and consent from the PI. Your manager / supervisor should also be alerted. If work does veer in this direction, it as the discretion of the consultant to pursue this collaboration outside of their data consultant role."
+  },
+  {
+    "objectID": "consultations.html#booking-procedures",
+    "href": "consultations.html#booking-procedures",
+    "title": "Consultations",
+    "section": "Booking Procedures",
+    "text": "Booking Procedures\n\nConsultation Bookings\nWe use LibCal for consultation booking. The CSC coordinator will help to get you set with a profile and review with you how LibCal works."
+  },
+  {
+    "objectID": "consultations.html#preparing-for-the-consultation",
+    "href": "consultations.html#preparing-for-the-consultation",
+    "title": "Consultations",
+    "section": "Preparing for the consultation",
+    "text": "Preparing for the consultation\nWhen booking a consultation, students will be asked if they will be bringing code and / or data to the consultation. If they answer yes, you are to create a folder for them, titled with their name, and invite them to it, asking them to deposit any materials at least 24 hours in advance of the consultation.\nYou will need to request access yourself to the data-deposit/ directory, if you don’t already have access. You can do so by clicking on this link.\nConsultations are booked in one hour slots. Time management is very important, and it’s important to reasonably limit the scope of what can be covered in a single consultation, encouraging students to book follow up appointments. It is also advisable, when doing time management with a consultation, to aim for 45 minutes, giving yourseld a 15 minute buffer.\nThis being said, each one hour consultation could easily take 2 hours of your time, especially if this is the first time the student is booking. It is expected that you will take some time to review any deposited code, data, and associated documentation in advance of the consultation. It is also expected that you will take some time responding post consultation via email to the student, summarizing what was covered in the session and what you’ve agreed on for next steps.\nIt is also expected that you may need to do spend some time investigating or researching novel concepts that arise during a consultation to effectively support a student. If you find yourself requiring more than an hour in such follow up research, bring this to the attention of your supervisor for discussion on how best to approach balancing what might become competing interests on having time for consultations, time for preparation and follow up, and time for skills and knowledge development."
+  },
+  {
+    "objectID": "blog-posts.html",
+    "href": "blog-posts.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Blog posts should help address common, repeat questions from students that are easily generalizeable. As much as possible, they should be concise and focused on a very specific task.\nYou are encouraged to update old posts and draft new content."
+  },
+  {
+    "objectID": "blog-posts.html#service-model",
+    "href": "blog-posts.html#service-model",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Blog posts should help address common, repeat questions from students that are easily generalizeable. As much as possible, they should be concise and focused on a very specific task.\nYou are encouraged to update old posts and draft new content."
+  },
+  {
+    "objectID": "blog-posts.html#creating-posts",
+    "href": "blog-posts.html#creating-posts",
+    "title": "Blog Posts",
+    "section": "Creating Posts",
+    "text": "Creating Posts\nWe use Blogdown to write and release content hosted on GitHub pages. The CSC Data Blog repository, along with instructions for drafting, building, and pushing content can be found at https://github.com/csc-ubc-okanagan/csc-data-blog.\nYou are encouraged to actively contribute to the site’s documentation if you identify gaps, to address updates, errors, etc.\nThe blog can be accessed at https://csc-ubc-okanagan.github.io/csc-data-blog/."
+  }
+]

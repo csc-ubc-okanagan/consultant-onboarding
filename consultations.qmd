@@ -1,0 +1,114 @@
+---
+title: "Consultations"
+format: html
+---
+
+## Service Model
+
+This is outlined more concisely for students at [https://csc.ok.ubc.ca/consultations/research-data-consultation/](https://csc.ok.ubc.ca/consultations/research-data-consultation/). This is also where students can access the booking form.
+
+### Overview
+
+The data consultation service is premised on enhancing the graduate and undergraduate research learning experience at UBCO, providing students with an opporutnity to build new skill sets that are transferable to future problems. As such, the intent of the service is not to solve the problem for the student, but to navigate them through the problem solving process, helping them to identify a solution that they understand, can implement, and is appropriate for their discipline, their data, and their research question.
+
+The service is delivered with the underlying philosophy of engaging students in transparent and reproducible methods, hence the focus on open source and scripted tools for analysis. However, this should be extended to include principles such as maintianing a read only version of the raw data, not overwriting data, and maintaining documentation in the form of readmes and data dictionaries. These, and other good research practices related to data management should be encouraged during consultations.
+
+However, this can be challenging for several reasons. Students may:
+
+* have limited skillsets in the use of R or Python
+* come with immediate deadlines they need to meet
+* have an expectation that someone else will do the work for them
+* be less interested in understanding the problem than simply having a solution
+* lack PI or other faculty support in adhering to best practices in data managmenet and statistical methods
+* and more...
+
+These are factors that need to be mediated and benefit from seeking clarification from the student. Ultimately, it is not up to a consultant to tell a student how their work should be done, nor is it their responsibility to navigate the relationship between a student and their supervisor or other project lead. However, it is critical to be clear on the scope of services available. If at any stage there is concern about conflict in managing these challenges, the consultant should bring the issue directly to their supervisor to support a resolution.
+
+### Objectives & Outcomes
+
+**Objectives of the Service**
+
+*	Provide guidance on the writing of code to clean, organize, and otherwise prepare data for analysis.
+*	Provide guidance on interpreting errors and identifying solutions to overcome these.
+*	Provide guidance on the selection, application, and interpretation of statistical models used in analysis.
+
+**Outcomes of the Service**
+
+*	Users will be able to write clearer, more reliable code
+*	Users will be able to interpret the error messages they receive and resolve them.
+*	Users will gain insights into the appropriate selection, application, and interpretation of statistical methods and models
+
+**Example Activities Supporting these Outcomes and Objectives**
+
+
+*	Assist in drafting code to address an error
+*	Provide sample code to move a dataset through the data analysis pipeline (cleaning, organizing, imputing, etc) (this may be substantive)
+*	Describe the applicability and interpretation of a statistical model
+*	Advise on the selection of a statistical model, ideally before data collection
+*	Draft code to demonstrate the implementation a specific model (this may be substantive)
+*	As possible, draft all code on a random sample of the supplied data
+
+### Notes on Scope
+
+**Out of Scope**
+
+*	Writing the full analysis pipeline
+* Class assignment support
+
+## What is Communicated to Booking Students
+
+When booking a consultation, students are asked to provide certain key pieces of information to assist you in helping them and to sign off on a number of things that relate to academic and scholarly integrity.
+
+This booking form is managed in LibCal, and once your account is set up, can be accessed by navigating to Appointments > Booking Forms. You should familiarize yourself with this form. If you find that the form is not sufficiently capturing what is needed to facilitate your consultations, you are encouraged to suggest updates.
+
+Students are also provided with two additional links, one for [What to Expect During Your Research Data Consultation](https://csc.ok.ubc.ca/wp-content/uploads/sites/150/2024/08/RD_Consultation_Guide_20250516_Rev0.pdf), and for [What Should I Bring to a Consultation?](https://csc.ok.ubc.ca/wp-content/uploads/sites/150/2024/08/RD_Consultation_Guide_20250516_Rev0.pdf#page=2). You should familiarize yourself with these two documents. They can also be referenced to help set expectations for a consultation. As above, you are encouraged to suggest edits and updates.
+
+## Consultation Space
+
+Consultations may be provided in person or over Zoom. If you do not yet have a Zoom account through UBC, the CSC Coordinator or your supervisor can help set this up.
+
+For in person consultations, we have both LIB 223 and LIB 225 available. You should have Salto access to these two rooms as well as access to the calendars. If you have neither of these, the CSC Coordinator or your supervisor can help set this up.
+
+## Consultations & Academic / Scholarly Integrity
+
+It is important to be cognizant of when help begins to infringe on academic and scholarly integrity. This is all the more difficult as different supervisors, collaborators, and disciplines have differing expectations on the scope of support that is legitimate. In some cases, it may be appropriate to write code for an analysis, so long as attribution is provided. In other cases, it may be unacceptable for the student to use code drafted by someone else. The former may be the case if the purpose of the required understanding is the conceptual approach and output; the latter if the required understanding includes a level of mastery of the language.
+
+It is importnat to communicate during a consultation that the student should engage with their collaborators and supervisor on the level of support that they are getting; an effective way of doing this is to ask them to solicit feedback on a proposed solution or path forward followed by booking another consultation when things are agreed upon by the research team (possibly just the student and their supervisor).
+
+Because writing and trouble shooting code can be a very hands on activity, we have the following guide to help limit the level of 'authoring' the data consultant engages in and how much of the original data any authoring happens on:
+
+| Activity | Location |
+| :--- | :--- |
+| trouble shoot code | on their machine, full data set
+| write code | on their machine, using a sample
+| troubleshoot a model | on their machine, full data set
+| write / customize a model | on their machine, using a sample
+| interpret findings | on their machine, full data set
+
+### Handling Substantive Contributions
+
+In spite of being aware and taking precautions, you may well end up in a situation feeling like you're making 'substantive' contributions to the student's project. In such cases you should always make your supervisor aware of the situation.
+
+Examples of how these situations might be navigated include:
+
+*	When ‘substantive’ contributions are being made to overcome a lack of understanding on the user's part (this is in contrast to a ‘substantive’ contribution whose primary purpose is demonstration). In these cases, the student should be referred to their supervisor for guidance and may be referred to other self-guided resources or workshops.
+*	When ‘substantive’ makes you think your contributions warrant acknowledgement. In these cases, the student should be made aware of this fact.
+*	When ‘substantive’ makes you think your contributions warrant co-authorship. You should be thinking about this before we get to this stage. If acknowledgment is veering toward co-authorship, this should be clarified with the student and the conversation should include other co-authors and consent from the PI. Your manager / supervisor should also be alerted. If work does veer in this direction, it as the discretion of the consultant to pursue this collaboration outside of their data consultant role.
+
+## Booking Procedures
+
+### Consultation Bookings
+
+We use LibCal for consultation booking. The CSC coordinator will help to get you set with a profile and review with you how LibCal works.
+
+## Preparing for the consultation
+
+When booking a consultation, students will be asked if they will be bringing code and / or data to the consultation. If they answer yes, you are to create a folder for them, titled with their name, and invite them to it, asking them to deposit any materials at least 24 hours in advance of the consultation.
+
+You will need to request access yourself to the `data-deposit/` directory, if you don't already have access. You can do so by [clicking on this link](https://ubcca.sharepoint.com/:f:/r/teams/ubcOKLB-gr-CentreforScholarlyCommunication-DataConsultant/Shared%20Documents/Data%20Consultants/data-deposit?csf=1&web=1&e=zVgRwJ).
+
+Consultations are booked in one hour slots. Time management is very important, and it's important to reasonably limit the scope of what can be covered in a single consultation, encouraging students to book follow up appointments. It is also advisable, when doing time management with a consultation, to aim for 45 minutes, giving yourseld a 15 minute buffer.
+
+This being said, each one hour consultation could easily take 2 hours of your time, especially if this is the first time the student is booking. It is expected that you will take some time to review any deposited code, data, and associated documentation in advance of the consultation. It is also expected that you will take some time responding post consultation via email to the student, summarizing what was covered in the session and what you've agreed on for next steps.
+
+It is also expected that you may need to do spend some time investigating or researching novel concepts that arise during a consultation to effectively support a student. If you find yourself requiring more than an hour in such follow up research, bring this to the attention of your supervisor for discussion on how best to approach balancing what might become competing interests on having time for consultations, time for preparation and follow up, and time for skills and knowledge development.

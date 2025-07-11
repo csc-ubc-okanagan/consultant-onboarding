@@ -1,0 +1,36 @@
+---
+title: "Workshops"
+format: html
+---
+
+## Service Model
+
+These are publicly described, with access to sign up options, at [https://csc.ok.ubc.ca/workshops/](https://csc.ok.ubc.ca/workshops/)
+
+### Overview
+
+All workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.
+
+Individual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 minutes for follow up if needed.
+
+Each workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.
+
+Workshop content is meant to be iterative and updated; you are encouraged to make edits and suggestions on both content and delivery approach.
+
+## Workshop Space
+
+Workshops are hosted out of LIB 111. The CSC Coordinator will provide an introduction to the room.
+
+LIB 111 supports hybrid delivery.
+
+## Workshop Content
+
+All workshops are written in notebook format (generally RMarkdown), centralized in GitHub, and published through GitHub pages.
+
+If you need to familiarize yourself with RMarkdown, you can check out the [Get Started](https://rmarkdown.rstudio.com/lesson-1.html) content, and refer to the [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more thorough documentation.
+
+To build, update, etc. workshop content, you will need to request access to the CSC's organization on GitHub [https://github.com/csc-ubc-okanagan](https://github.com/csc-ubc-okanagan).
+
+## Workshop Delivery
+
+As most, if not all, workshops developed require some live coding, a common approach used by consultants is to do a split screen presentation, with the GitHub pages content on one side and an IDE, or similar working space, on the other.

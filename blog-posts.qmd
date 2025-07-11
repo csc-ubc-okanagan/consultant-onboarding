@@ -1,0 +1,18 @@
+---
+title: "Blog Posts"
+format: html
+---
+
+## Service Model
+
+Blog posts should help address common, repeat questions from students that are easily generalizeable. As much as possible, they should be concise and focused on a very specific task.
+
+You are encouraged to update old posts and draft new content.
+
+## Creating Posts
+
+We use Blogdown to write and release content hosted on GitHub pages. The CSC Data Blog repository, along with instructions for drafting, building, and pushing content can be found at [https://github.com/csc-ubc-okanagan/csc-data-blog](https://github.com/csc-ubc-okanagan/csc-data-blog).
+
+You are encouraged to actively contribute to the site's documentation if you identify gaps, to address updates, errors, etc.
+
+The blog can be accessed at [https://csc-ubc-okanagan.github.io/csc-data-blog/](https://csc-ubc-okanagan.github.io/csc-data-blog/).
