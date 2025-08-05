@@ -9,8 +9,9 @@ website:
       - href: index.qmd
         text: "Home"
       - href: consultations.qmd
-        
         text: "Consultations"
+      - href: scenarios-in-data-consultations.qmd
+        text: "Scenarios"
       - href: workshops.qmd
         text: "Workshops"
       - href: blog-posts.qmd

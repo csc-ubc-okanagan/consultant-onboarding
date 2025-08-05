@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>UBCO CSC Data Consultation Service - Scenarios in Data Consultations</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">UBCO CSC Data Consultation Service</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./consultations.html" rel="" target="">
+ <span class="menu-text">Consultations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./scenarios-in-data-consultations.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Scenarios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./workshops.html" rel="" target="">
+ <span class="menu-text">Workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog-posts.html" rel="" target="">
+ <span class="menu-text">Blog Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./referrals.html" rel="" target="">
+ <span class="menu-text">Referrals</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#service-model" id="toc-service-model" class="nav-link active" data-scroll-target="#service-model">Service Model</a></li>
+  <li><a href="#individual-arrives-with-no-data" id="toc-individual-arrives-with-no-data" class="nav-link" data-scroll-target="#individual-arrives-with-no-data">Individual arrives with no data:</a></li>
+  <li><a href="#individual-arrives-with-limited-ability-to-describe-their-data-and-research-questions" id="toc-individual-arrives-with-limited-ability-to-describe-their-data-and-research-questions" class="nav-link" data-scroll-target="#individual-arrives-with-limited-ability-to-describe-their-data-and-research-questions">Individual arrives with limited ability to describe their data and research questions:</a></li>
+  <li><a href="#individual-arrives-with-a-dataset-asking-for-support-in-conducting-a-particular-statistical-test-of-the-data" id="toc-individual-arrives-with-a-dataset-asking-for-support-in-conducting-a-particular-statistical-test-of-the-data" class="nav-link" data-scroll-target="#individual-arrives-with-a-dataset-asking-for-support-in-conducting-a-particular-statistical-test-of-the-data">Individual arrives with a dataset asking for support in conducting a particular statistical test of the data:</a></li>
+  <li><a href="#individual-arrives-with-a-dataset-asking-for-guidance-in-selecting-a-statistical-test-to-analyze-the-data" id="toc-individual-arrives-with-a-dataset-asking-for-guidance-in-selecting-a-statistical-test-to-analyze-the-data" class="nav-link" data-scroll-target="#individual-arrives-with-a-dataset-asking-for-guidance-in-selecting-a-statistical-test-to-analyze-the-data">Individual arrives with a dataset asking for guidance in selecting a statistical test to analyze the data:</a></li>
+  <li><a href="#individual-arrives-with-no-background-in-coding-or-statistical-analysis" id="toc-individual-arrives-with-no-background-in-coding-or-statistical-analysis" class="nav-link" data-scroll-target="#individual-arrives-with-no-background-in-coding-or-statistical-analysis">Individual arrives with no background in coding or statistical analysis:</a></li>
+  <li><a href="#individual-arrives-experiencing-difficulties-with-their-coding" id="toc-individual-arrives-experiencing-difficulties-with-their-coding" class="nav-link" data-scroll-target="#individual-arrives-experiencing-difficulties-with-their-coding">Individual arrives experiencing difficulties with their coding:</a></li>
+  <li><a href="#individual-arrives-working-with-less-common-types-of-data" id="toc-individual-arrives-working-with-less-common-types-of-data" class="nav-link" data-scroll-target="#individual-arrives-working-with-less-common-types-of-data">Individual arrives working with less common types of data:</a></li>
+  <li><a href="#individual-arrives-seeking-support-for-non-data-related-questions" id="toc-individual-arrives-seeking-support-for-non-data-related-questions" class="nav-link" data-scroll-target="#individual-arrives-seeking-support-for-non-data-related-questions">Individual arrives seeking support for non-data-related questions:</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Scenarios in Data Consultations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="service-model" class="level2">
+<h2 class="anchored" data-anchor-id="service-model">Service Model</h2>
+<p>There are some common scenarios that may occur during your consultation sessions. Below are suggestions on how to handle them effectively:</p>
+</section>
+<section id="individual-arrives-with-no-data" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-with-no-data">Individual arrives with no data:</h2>
+<p>This should be more common than it is. We encourage students to consult at a minimum at three stages during their project: a) prior to data collection; b) post data collection; c) during analysis.</p>
+<p><strong>Research Question and Hypotheses</strong></p>
+<p>At this stage, it is critical to emphasize the need for a robust, clearly articulated research question and robust, clearly articulated hypotheses. If these cannot be clearly articulated by the student, provide examples, articulate the relevance to statistical analysis, and encourage them to cement these with their supervisor.</p>
+<p><strong>Data Collection Plan</strong></p>
+<p>Discuss their data collection plan and help to address if it appears to violate standard assumptions. For example,</p>
+<ul>
+<li>Is it a random sample?</li>
+<li>Is there pseudo replication?</li>
+<li>What sample size is sufficient?</li>
+<li>Is there a risk of missing data or nonresponse bias?</li>
+<li>Directing to Resources</li>
+</ul>
+</section>
+<section id="individual-arrives-with-limited-ability-to-describe-their-data-and-research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-with-limited-ability-to-describe-their-data-and-research-questions">Individual arrives with limited ability to describe their data and research questions:</h2>
+<p>We want to ensure the student understands how their data relate to their research question and can comfortably describe their data.</p>
+<ul>
+<li><ol type="1">
+<li>Can the student clearly articulate their research question? 1.1 Yes. Proceed to 2. 1.2 No.Communicate the need to define the research question for the validity of statistical analyses. Note the limitations in post hoc articulation of the research question, but proceed.</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Can the student clearly articulate their hypothesis? 2.1 Yes. Proceed to 3. 2.2 No.Communicate the need to define a null and alternative. Assist in this. Note limitations in post hoc articulation of the hypothesis, but proceed if they wish to.</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Can the student describe their data, including:</li>
+</ol></li>
+<li>How it was collected</li>
+<li>The type of data</li>
+<li>The measure of the data</li>
+<li>The independent and dependent variables. 3.1 No.Walk them through the process of describing their data. Consider helping them create a data dictionary containing this information. Emphasize that a test cannot be selected until the data are understood. 3.2 Yes. Proceed to 4.</li>
+</ul>
+</section>
+<section id="individual-arrives-with-a-dataset-asking-for-support-in-conducting-a-particular-statistical-test-of-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-with-a-dataset-asking-for-support-in-conducting-a-particular-statistical-test-of-the-data">Individual arrives with a dataset asking for support in conducting a particular statistical test of the data:</h2>
+<p>We want to ensure that the chosen test is appropriate for the data:</p>
+<ul>
+<li><ol start="4" type="1">
+<li>What are the assumptions of the test?</li>
+</ol></li>
+<li><ol start="5" type="1">
+<li>Have these been tested for?</li>
+</ol></li>
+<li><p>5.1 Yes. Proceed to 3.</p></li>
+<li><p>5.2 No.&nbsp;How do we test these assumptions? Conduct the tests.</p></li>
+<li><ol start="6" type="1">
+<li>Are any of the assumptions violated?</li>
+</ol></li>
+<li><p>6.1 No.&nbsp;Is the dataset large enough for the test results to be meaningful?</p></li>
+<li><p>6.1.1 No.&nbsp;Depending on the project, this may be all that the student has to work with. The limitations should be communicated and a decision made on how to proceed.</p></li>
+<li><p>6.2 Yes. Is there an alternative test they could use that would be suitable?</p></li>
+<li><p>6.2.1 Yes. Introduce the alternative.</p></li>
+<li><p>6.2.2 No, or they wish to use the original test anyway. The limitations should be communicated, the test and its interpretation can be demonstrated anyway.</p></li>
+</ul>
+</section>
+<section id="individual-arrives-with-a-dataset-asking-for-guidance-in-selecting-a-statistical-test-to-analyze-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-with-a-dataset-asking-for-guidance-in-selecting-a-statistical-test-to-analyze-the-data">Individual arrives with a dataset asking for guidance in selecting a statistical test to analyze the data:</h2>
+<p>We want to ensure the student understands how their data relate to specific tests, how then to implement these tests and finally, interpret the results:</p>
+<ul>
+<li>Provide the student with options as appropriate, providing guidance if they request it. Demonstrate how to test for assumptions in the test(s), how to implement the test(s), and how to interpret the results.</li>
+</ul>
+</section>
+<section id="individual-arrives-with-no-background-in-coding-or-statistical-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-with-no-background-in-coding-or-statistical-analysis">Individual arrives with no background in coding or statistical analysis:</h2>
+<p>You may encounter clients who have no experience with coding in R or Python and limited or no understanding of statistical analysis:</p>
+<ul>
+<li><p>Since our service focuses on using R and Python, it is important to suggest that these clients begin learning the basics of these tools. Encourage them to attend CSC workshops offered throughout the semester, such as Working with R in the first semester and Statistical Fundamentals + Modelling in the second semester. Also, many online resources are available and should be recommended during workshop sessions. Relevant blog posts on the CSC website should be introduced and presented to clients as helpful learning tools.</p></li>
+<li><p>Depending on the nature of their questions, whether they are about visualization or analysis, you can offer general guidance, such as appropriate types of visualizations or potential statistical tests based on their research questions. However, providing detailed and tailored advice typically requires some foundational statistical knowledge, which the client may not yet have in the first session. In such cases, encourage them to return for follow-up sessions, where more precise and specific guidance can be offered once they have a stronger understanding.</p></li>
+<li><p>You should not write entire scripts for clients, as this is outside the scope of our data consultation services. If clients request a full script, please note that this is not within the scope of our services, but you would be happy to help them troubleshoot or use the proper approach to their own written code.</p></li>
+<li><p>You may encounter clients who are working with other statistical tools such as SPSS or STATA/MP and are seeking guidance on their analysis. While you can offer general advice on data analysis approaches, you may not be able to provide hands-on support with these specific software programs, depending on your own expertise and experience. It is recommended to communicate and clarify this with the client before the session so they have a clear understanding of what kind of support they can expect.</p></li>
+</ul>
+</section>
+<section id="individual-arrives-experiencing-difficulties-with-their-coding" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-experiencing-difficulties-with-their-coding">Individual arrives experiencing difficulties with their coding:</h2>
+<p>Sometimes, you may have clients who are moderately proficient in coding but are facing issues in their scripts:</p>
+<ul>
+<li><p>This is often seen in clients who are trying to model their data or who have used AI-generated codes without fully understanding their purpose. In such cases, it is recommended that you first gain a full understanding of their dataset and research question. The imported data should be explored to ensure there are no issues with the data itself. More tailored help can be provided once you understand the specific error they are encountering.</p></li>
+<li><p>You may quickly develop an idea of what kind of code and analysis would be suitable after seeing their data and research questions. If it becomes clear that the client is using uncommon packages or methods, it is a good idea to introduce them to more standard or widely accepted approaches for analysis.</p></li>
+<li><p>Keep in mind that you are not expected to be familiar with every potential error in R or Python. Sometimes, identifying the root cause takes time. In such situations, you can work with a sample dataset provided by the client on your own machine after the session and follow up with them once you have resolved or identified the issue.</p></li>
+</ul>
+</section>
+<section id="individual-arrives-working-with-less-common-types-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-working-with-less-common-types-of-data">Individual arrives working with less common types of data:</h2>
+<p>You may encounter clients who are working with unusual or less common types of data as part of their thesis or course project:</p>
+<ul>
+<li><p>In such cases, it may not be possible to provide precise guidance during the session due to the complexity or uncommon structure of their data. These situations might require you to explore the problem further on your own and follow up with the client afterward.</p></li>
+<li><p>For example, a client might be working with data where the outcome variable is continuous, not normally distributed, and includes true zeros and positive values (not necessarily counts). This restricts the use of many commonly applied distributions in standard modeling approaches. In such scenarios, the <a href="https://r.qcbs.ca/workshop06/book-en/other-distributions.html">Tweedie distribution</a> is often recommended, as it can accommodate both zero values and positive continuous outcomes in the same model.</p></li>
+</ul>
+</section>
+<section id="individual-arrives-seeking-support-for-non-data-related-questions" class="level2">
+<h2 class="anchored" data-anchor-id="individual-arrives-seeking-support-for-non-data-related-questions">Individual arrives seeking support for non-data-related questions:</h2>
+<ul>
+<li>Some clients may seek our services for help with their research proposals or presentations, especially when discussing the statistical analysis section of their methodology. In some cases, you might notice that their writing needs significant improvement. When this happens, it is helpful to recommend that they also take advantage of other services offered by CSC, such as writing consultations. For guidance, see the section on <a href="referrals.html">referrals</a>.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
