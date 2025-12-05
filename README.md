@@ -1,6 +1,6 @@
 ## License
 
-[![CC BY-NC 4.0](./assets/images/cc-by-nc-shield.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![CC BY-NC 4.0](./docs/images/cc-by-nc-shield.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
